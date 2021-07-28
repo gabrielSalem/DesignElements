@@ -5,7 +5,7 @@
 }
 
 body {
-	background: #000;
+	background: #202;
 	color: #fff;
 	text-align: center;
 }
@@ -14,7 +14,7 @@ ul, li {list-style: none;}
 
 main {
 	width: 50vw;
-	height: 25vw;
+	height: 25vh;
 	margin: 0 auto;
 	margin-top: 50px;
 }
@@ -25,6 +25,7 @@ main {
 	color: rgb(10,5,7);
 	border-radius: 1em;
 	overflow: hidden;
+	margin-bottom: 25px;
 
 	display: grid;
 	grid-template-areas: "text img";
@@ -49,7 +50,7 @@ main {
 
 .card_content > figure > img {
 	width: 100%;
-	height: 100%;
+	height: 50vh;
 	object-fit: cover;
 }
 
